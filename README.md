@@ -53,7 +53,13 @@ Jika sudah maka akan muncul controller dengan nama api pada direktori app->Http-
 ![image](https://user-images.githubusercontent.com/56968542/103269220-f1ec4b80-49e7-11eb-89d6-5283240305db.png)
 
 # membuat model
-kita sudah membuat table lewat migration dan juga membuat controller ,selanjutnya  akan membuat model. Untuk membuat model kita bisa masukkan kode berikut :
+kita sudah membuat table lewat migration dan juga membuat controller ,selanjutnya  akan membuat model. Untuk membuat model kita bisa masukkan kode berikut pada cmd:
 
 `php artisan make:model BarangModel`
+
+![image](https://user-images.githubusercontent.com/56968542/103269533-a1292280-49e8-11eb-8766-28ff4f8994bc.png)
+
+nanti pada directori app akan muncul BarangModel
+
+![image](https://user-images.githubusercontent.com/56968542/103269659-dafa2900-49e8-11eb-83f0-0193eb49c9c4.png)
 
