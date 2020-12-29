@@ -51,3 +51,9 @@ Selanjutnya kita buat controller untuk mengatur data yang akan kita jadikan REST
 Jika sudah maka akan muncul controller dengan nama api pada direktori app->Http->Controller
 
 ![image](https://user-images.githubusercontent.com/56968542/103269220-f1ec4b80-49e7-11eb-89d6-5283240305db.png)
+
+# membuat model
+kita sudah membuat table lewat migration dan juga membuat controller ,selanjutnya  akan membuat model. Untuk membuat model kita bisa masukkan kode berikut :
+
+`php artisan make:model BarangModel`
+
