@@ -39,3 +39,15 @@ Jika sudah simpan dan lanjut ketikkan perintah `php artisan migrate`  pada cmd s
 ![image](https://user-images.githubusercontent.com/56968542/103203340-4085e100-4927-11eb-917b-4cb877a43a68.png)
 
 ![image](https://user-images.githubusercontent.com/56968542/103203819-619b0180-4928-11eb-96b2-466346de1ea5.png)
+
+# membuat controler
+
+Selanjutnya kita buat controller untuk mengatur data yang akan kita jadikan RESTfull API. Ketikkan kode berikut pada terminal atau command prompt untuk membuat
+
+`php artisan make:controller apicontroller`
+
+![image](https://user-images.githubusercontent.com/56968542/103269156-c8332480-49e7-11eb-81c2-1c82d2f4968b.png)
+
+Jika sudah maka akan muncul controller dengan nama api pada direktori app->Http->Controller
+
+![image](https://user-images.githubusercontent.com/56968542/103269220-f1ec4b80-49e7-11eb-89d6-5283240305db.png)
