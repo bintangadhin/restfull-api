@@ -148,10 +148,31 @@ kita coba cek pada database dan datanya telah terupdate
 
 ![image](https://user-images.githubusercontent.com/56968542/103277514-c83d1f80-49fb-11eb-833b-66eb849b83ce.png)
 
-# DELETE
+# 4. DELETE
 
+Kita buat method untuk delete data terlebih dahulu sebelum mencoba method delete, pada controller isikan kode berikut dibawahnya fungsi put
 
+![image](https://user-images.githubusercontent.com/56968542/103277898-a85a2b80-49fc-11eb-945c-f90e5ba63c45.png)
 
+lalu pada direktori` routes->api.php` dan isi kode berikut
+
+`Route::delete('/barang/delete/{kode_barang}','apicontroller@delete_data_barang');`
+
+![image](https://user-images.githubusercontent.com/56968542/103278014-0129c400-49fd-11eb-81f9-c2c3159a7ebe.png)
+
+terakhir kita cek menggunakan aplikasi Postman dengan memilih method delete dan pada colomnya tuliskan
+
+`http://127.0.0.1:8000/api/barang/delete/1002` 
+
+url diatas pada baris terkahir merupakan kode_barang yang akan kita coba delete, disitu untuk kode 1002 merupakan kode barang lifeboy. kita akan coba delete , dan hasilnya suskses
+
+![image](https://user-images.githubusercontent.com/56968542/103278127-4d750400-49fd-11eb-978d-f9f46cab13cc.png)
+
+kita coba cek pada database dan datanya telah terdelete
+
+![image](https://user-images.githubusercontent.com/56968542/103278147-5d8ce380-49fd-11eb-96a3-5dfe9ccaf4ca.png)
+
+#  Selesai 
 
 
 
