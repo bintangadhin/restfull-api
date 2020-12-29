@@ -121,6 +121,37 @@ disini saya mencoba menambahkan barang baru yaitu detol dengan jumlah 11 dan has
 
 ![image](https://user-images.githubusercontent.com/56968542/103276040-1bad6e80-49f8-11eb-8de1-060e6f54b858.png)
 
+kita coba cek pada database dan datanya telah masuk kedalam tabel_barang
+
+![image](https://user-images.githubusercontent.com/56968542/103276148-5a432900-49f8-11eb-8a71-3823236209e8.png)
+
+# 3. PUT
+Kita buat method untuk update data kedalam database terlebih dahulu sebelum mencoba method put, pada controller isikan kode berikut dibawahnya fungsi post 
+
+![image](https://user-images.githubusercontent.com/56968542/103276519-61b70200-49f9-11eb-92b2-a6fa6c23c888.png)
+
+lalu pada direktori` routes->api.php` dan isi kode berikut
+
+`Route::put('/barang/update/{kode_barang}','apicontroller@update_data_barang');`
+
+![image](https://user-images.githubusercontent.com/56968542/103276757-046f8080-49fa-11eb-9112-af7c105d3560.png)
+
+terakhir kita cek menggunakan aplikasi Postman dengan memilih method PUT dan pada colomnya tuliskan
+
+`http://127.0.0.1:8000/api/barang/update/1002` 
+
+url diatas pada baris terkahir merupakan kode_barang yang akan kita coba update , disitu untuk kode 1002 merupakan kode barang detol . kita akan coba ganti menjadi pada namaBarang : lifeboy dan jmlBarang : 10 , dan hasilnya suskses
+
+![image](https://user-images.githubusercontent.com/56968542/103277351-641a5b80-49fb-11eb-84b0-6e4e7338fa9d.png)
+
+kita coba cek pada database dan datanya telah terupdate
+
+![image](https://user-images.githubusercontent.com/56968542/103277514-c83d1f80-49fb-11eb-833b-66eb849b83ce.png)
+
+# DELETE
+
+
+
 
 
 
