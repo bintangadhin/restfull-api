@@ -90,4 +90,9 @@ maka akan muncul data pada tabel barang di database . di tabel barang sebelumnya
 
 ![image](https://user-images.githubusercontent.com/56968542/103271961-3549b880-49ee-11eb-840d-862588c30c7f.png)
 
+kita cocokan data di databse dan hasilnya sama 
+
+![image](https://user-images.githubusercontent.com/56968542/103272059-72ae4600-49ee-11eb-84f9-c3c1f69e56b8.png)
+
+
 
