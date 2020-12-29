@@ -69,7 +69,7 @@ lalu pada BarangModel isi dengan kode berikut
 
 Model sudah kita buat dan kita bisa memulai untuk membuat RESTfull 💃💃
 
-# GET
+# 1. GET
 Pertama, tambahkan dulu nama model yang sudah dibuat sebelumnya ke controller 
 
 ![image](https://user-images.githubusercontent.com/56968542/103270684-1f86c400-49eb-11eb-9c6f-22fe16680de2.png)
@@ -98,6 +98,15 @@ selanjutnya kita coba menggunakan aplikasi Postman dengan memilih method GET , d
 
 ![image](https://user-images.githubusercontent.com/56968542/103272413-624a9b00-49ef-11eb-890a-c0b12a4e4843.png)
 
-# POST
+# 2. POST
+Kita buat method untuk menambah data kedalam database terlebih dahulu sebelum mencoba method post, pada controller isikan kode berikut
+
+![image](https://user-images.githubusercontent.com/56968542/103272703-1e0bca80-49f0-11eb-9fd0-a4b84357875a.png)
+
+lalu pada direktori` routes->api.php` dan isi kode berikut
+
+
+
+
 
 
