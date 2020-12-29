@@ -82,7 +82,7 @@ setelah membuat controller untuk ambil , selanjutnya kita buat routes untuk meng
 
 ![image](https://user-images.githubusercontent.com/56968542/103271395-bb64ff80-49ec-11eb-8408-90b8f021b4c1.png)
 
-lalu tuliskan `php artisan serve` pada cmd dan buka 
+lalu tuliskan `php artisan serve` pada cmd dan buka link dibawah pada browser
 
 `http://127.0.0.1:8000/api/barang`
 
@@ -94,22 +94,33 @@ kita cocokan data di databse dan hasilnya sama
 
 ![image](https://user-images.githubusercontent.com/56968542/103272059-72ae4600-49ee-11eb-84f9-c3c1f69e56b8.png)
 
-selanjutnya kita coba menggunakan aplikasi Postman dengan memilih method GET , dan hasilnyapun sukses
+selanjutnya kita coba menggunakan aplikasi Postman dengan memilih method GET dan pada colomnya tuliskan
+
+`http://127.0.0.1:8000/api/barang`
+
+dan hasilnyapun dapat dilihat pada gambar dibawah 
 
 ![image](https://user-images.githubusercontent.com/56968542/103272413-624a9b00-49ef-11eb-890a-c0b12a4e4843.png)
 
 # 2. POST
 Kita buat method untuk menambah data kedalam database terlebih dahulu sebelum mencoba method post, pada controller isikan kode berikut
 
-![image](https://user-images.githubusercontent.com/56968542/103273005-ce79ce80-49f0-11eb-9d13-0a554a6e1146.png)
+![image](https://user-images.githubusercontent.com/56968542/103275702-54007d00-49f7-11eb-835b-3f15d5782285.png)
 
 lalu pada direktori` routes->api.php` dan isi kode berikut
 
 `Route::post('barang/tambah_barang','apicontroller@insert_data_barang');`
 
-![image](https://user-images.githubusercontent.com/56968542/103273233-62e43100-49f1-11eb-9091-aea32fc0f96d.png)
+![image](https://user-images.githubusercontent.com/56968542/103275739-68447a00-49f7-11eb-92d6-19865d5a74a0.png)
 
-terakhir kita cek menggunakan aplikasi Postman , 
+terakhir kita cek menggunakan aplikasi Postman dengan memilih method POST dan pada colomnya tuliskan
+
+`http://127.0.0.1:8000/api/barang/tambah_barang` 
+
+disini saya mencoba menambahkan barang baru yaitu detol dengan jumlah 11 dan hasilnya suskes
+
+![image](https://user-images.githubusercontent.com/56968542/103276040-1bad6e80-49f8-11eb-8de1-060e6f54b858.png)
+
 
 
 
