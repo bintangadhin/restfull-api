@@ -101,7 +101,7 @@ selanjutnya kita coba menggunakan aplikasi Postman dengan memilih method GET , d
 # 2. POST
 Kita buat method untuk menambah data kedalam database terlebih dahulu sebelum mencoba method post, pada controller isikan kode berikut
 
-![image](https://user-images.githubusercontent.com/56968542/103272703-1e0bca80-49f0-11eb-9fd0-a4b84357875a.png)
+![image](https://user-images.githubusercontent.com/56968542/103273005-ce79ce80-49f0-11eb-9d13-0a554a6e1146.png)
 
 lalu pada direktori` routes->api.php` dan isi kode berikut
 
