@@ -66,3 +66,5 @@ nanti pada directori app akan muncul BarangModel
 lalu pada BarangModel isi dengan kode berikut
 
 ![image](https://user-images.githubusercontent.com/56968542/103270046-c66a6080-49e9-11eb-8891-9f74efddaffb.png)
+
+Model sudah kita buat dan kita bisa memulai untuk membuat RESTfull 💃💃
