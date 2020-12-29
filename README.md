@@ -68,3 +68,13 @@ lalu pada BarangModel isi dengan kode berikut
 ![image](https://user-images.githubusercontent.com/56968542/103270046-c66a6080-49e9-11eb-8891-9f74efddaffb.png)
 
 Model sudah kita buat dan kita bisa memulai untuk membuat RESTfull 💃💃
+
+# GET
+Pertama, tambahkan dulu nama model yang sudah dibuat sebelumnya ke controller 
+
+![image](https://user-images.githubusercontent.com/56968542/103270684-1f86c400-49eb-11eb-9c6f-22fe16680de2.png)
+
+lalu kita  buat method function untuk ambil data dari database 
+
+![image](https://user-images.githubusercontent.com/56968542/103271087-d71bd600-49eb-11eb-91e9-07ea4c58056e.png)
+
