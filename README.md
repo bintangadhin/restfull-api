@@ -94,5 +94,10 @@ kita cocokan data di databse dan hasilnya sama
 
 ![image](https://user-images.githubusercontent.com/56968542/103272059-72ae4600-49ee-11eb-84f9-c3c1f69e56b8.png)
 
+selanjutnya kita coba menggunakan aplikasi Postman dengan memilih method GET , dan hasilnyapun sukses
+
+![image](https://user-images.githubusercontent.com/56968542/103272413-624a9b00-49ef-11eb-890a-c0b12a4e4843.png)
+
+# POST
 
 
