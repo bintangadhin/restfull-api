@@ -105,6 +105,7 @@ Kita buat method untuk menambah data kedalam database terlebih dahulu sebelum me
 
 lalu pada direktori` routes->api.php` dan isi kode berikut
 
+![image](https://user-images.githubusercontent.com/56968542/103273163-3b8d6400-49f1-11eb-9d54-1aed4b98f027.png)
 
 
 
