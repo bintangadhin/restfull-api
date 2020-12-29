@@ -38,3 +38,4 @@ Jika sudah simpan dan lanjut ketikkan perintah `php artisan migrate`  pada cmd s
 
 ![image](https://user-images.githubusercontent.com/56968542/103203340-4085e100-4927-11eb-917b-4cb877a43a68.png)
 
+![image](https://user-images.githubusercontent.com/56968542/103203819-619b0180-4928-11eb-96b2-466346de1ea5.png)
