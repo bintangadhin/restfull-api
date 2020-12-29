@@ -65,7 +65,7 @@ nanti pada directori app akan muncul BarangModel
 
 lalu pada BarangModel isi dengan kode berikut
 
-![image](https://user-images.githubusercontent.com/56968542/103270046-c66a6080-49e9-11eb-8891-9f74efddaffb.png)
+![image](https://user-images.githubusercontent.com/56968542/103271756-adfc4500-49ed-11eb-85ab-c7ab63451c09.png)
 
 Model sudah kita buat dan kita bisa memulai untuk membuat RESTfull 💃💃
 
@@ -77,4 +77,17 @@ Pertama, tambahkan dulu nama model yang sudah dibuat sebelumnya ke controller
 lalu kita  buat method function untuk ambil data dari database 
 
 ![image](https://user-images.githubusercontent.com/56968542/103271087-d71bd600-49eb-11eb-91e9-07ea4c58056e.png)
+
+setelah membuat controller untuk ambil , selanjutnya kita buat routes untuk mengatur rute urlnya. pergi ke direktori` routes->api.php` dan isi kode berikut
+
+![image](https://user-images.githubusercontent.com/56968542/103271395-bb64ff80-49ec-11eb-8408-90b8f021b4c1.png)
+
+lalu tuliskan `php artisan serve` pada cmd dan buka 
+
+`http://127.0.0.1:8000/api/barang`
+
+maka akan muncul data pada tabel barang di database . di tabel barang sebelumnya sudah saya isi data untuk rinso
+
+![image](https://user-images.githubusercontent.com/56968542/103271961-3549b880-49ee-11eb-840d-862588c30c7f.png)
+
 
